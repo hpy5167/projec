@@ -87,6 +87,7 @@ def login(users: dict):
         print(f"\ncurrent score: {users[username]["score"]}")
     else:
         print("\n\ninvalid username or password")
+    return username
 
 
 # MAKING ACCOUTNS PART OVER ############################################################
@@ -158,3 +159,4 @@ def main():
 # technically it starts running here but all this part does is tell it to start at main()
 if __name__ == "__main__":
     main()
+
