@@ -5,6 +5,7 @@ from lightstreamer.client import LightstreamerClient, Subscription, Subscription
 
 CACHE_FILE = "urine_tank_cache.json"
 
+print("hank")
 
 def load_cached_value():
     #loads cached values from urine_tank_cache into memory
